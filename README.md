@@ -9,7 +9,7 @@ We need to install Flask, pandas and datetime inside the virtual environment. Us
 
 Running the API - <br />
 The Flask API can be run locally with the `python3 app.py` command from inside venv. 
-Once the API is running, open a new terminal and use CURL to make a POST request to the API. <br />
+Once the API is running, open a new terminal and use CURL to make a POST request to the API. You may be required to install CURL on your system if not already installed. <br />
 
 `curl -i -H "Content-Type:application/json" -X POST -d '{"filters":{"Languages":["spanish","italian"], "Salary":{"max":300000,"min":100000}, "Date":{}}}' http://localhost:5000/`
 
