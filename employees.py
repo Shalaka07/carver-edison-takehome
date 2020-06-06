@@ -1,7 +1,6 @@
 # Import modules
 
 import pandas as pd
-from dateutil.parser import parse
 from datetime import datetime
 from datetime import timedelta
 
